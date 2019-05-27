@@ -5,7 +5,9 @@
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "__GNUC__=7",
+                "__cdecl=__attribute__((__cdecl__))"
             ],
             "compilerPath": "/usr/bin/g++",
             "cStandard": "c11",

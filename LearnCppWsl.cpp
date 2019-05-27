@@ -5,16 +5,27 @@
 
  using namespace std;
 
+ void TestHelloWorld()
+ {
+   vector<string> msg {"Hello", "C++", "World", "from", "VS Code!", "and the C++ extension!"};
+   for (const string& word : msg)
+   {
+      cout << word << " ";
+   }
+   cout << endl;
+ }
+
+
+
  int main()
  {
+    //TestHelloWorld();
+    
+    //TestPointersReferences();
 
-     vector<string> msg {"Hello", "C++", "World", "from", "VS Code!", "and the C++ extension!"};
+    //TestPrimitiveArray();
 
-     for (const string& word : msg)
-     {
-         cout << word << " ";
-     }
-     cout << endl;
+    // TestRangeBasedForLoop();
 
-    Test1();
+    TestToString();
  }

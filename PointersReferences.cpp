@@ -4,7 +4,7 @@
 
  using namespace std;
 
-void Test1()
+void TestPointersReferences()
 {
     int x = 7;    
     int *ip = &x;
