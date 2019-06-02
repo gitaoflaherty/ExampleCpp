@@ -19,7 +19,7 @@
                 "-g",
                 "-o",
                 "/home/gita/projects/LearnCppWsl/LearnCppWsl.out",
-                "Main.cpp"
+                "../src/Main.cpp"
             ],
             "group": {
                 "kind": "build",
