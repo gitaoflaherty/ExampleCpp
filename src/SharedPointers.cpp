@@ -75,12 +75,12 @@ void TestSharedPointersUndef()
 // cyclic reference can cause memory leak.  Fix: weak pointers.
 void TestSharedPointersMemoryLeak()
 {
-    struct Foo
-    {
-        shared_ptr<Dog> _dog;
-        public:
-             Foo(Dog dog) { _dog = shared_ptr<Dog>( dog );  }
-    }
+    // struct Foo
+    // {
+    //     shared_ptr<Dog> _dog;
+    //     public:
+    //          Foo(Dog dog) { _dog = shared_ptr<Dog>( dog );  }
+    // }
 }
 
 // ----------------------------------------------------

@@ -1,7 +1,7 @@
  #include <iostream>
  #include <vector>
  #include <string>
- #include "Tests.h"
+ #include "../src/Tests.h"
 
  using namespace std;
 
