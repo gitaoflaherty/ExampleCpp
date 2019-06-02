@@ -8,7 +8,7 @@ void TestPointersReferences()
 {
     int x = 7;    
     int *ip = &x;
-    int &y = x;
+    int &y = x; // References are immutable and cannot be reassigned
     y = 42;
     int z = 73;
     ip = &z; // Pointer reassigned to a different memory location
