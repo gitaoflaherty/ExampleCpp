@@ -4,6 +4,8 @@
 #include "BitwiseOperators.cpp" // toString()
 #include "FunctionPointers.cpp"
 #include "SharedPointers.cpp"
+#include "AsyncFuturePromise.cpp"
+#include "StringFunctions.cpp"
 
 void TestPointersReferences();
 
@@ -17,6 +19,10 @@ void TestSimpleFunctionPointer();
 void TestJumpFunctionTable(); 
 
 void TestSharedPointers();
+
+void TestAsyncFuturePromise();
+
+void TestStringFunctions();
 
 //---------------------------------------------------------
  void TestHelloWorld()

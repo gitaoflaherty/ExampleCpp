@@ -21,5 +21,9 @@
     //TestSimpleFunctionPointer();
     //TestJumpFunctionTable();
 
-    TestSharedPointers();
+    //TestSharedPointers();
+
+    //TestAsyncFuturePromise();
+
+    TestStringFunctions();
  }
